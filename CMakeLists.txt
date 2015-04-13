@@ -5,6 +5,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
 
-add_subdirectory(std)
-
-add_executable(Algorithm ${SOURCE_FILES} IntSLLNode.cpp IntSLLNode.h DLLNode.cpp DLLNode.h Base.h Pointor.h Ref.h FunPoint.h)
+add_executable(Algorithm ${SOURCE_FILES} IntSLLNode.cpp IntSLLNode.h DLLNode.cpp DLLNode.h Base.h Pointor.h Ref.h FunPoint.h std/VectorTest.h)
